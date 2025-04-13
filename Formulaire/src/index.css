@@ -1,0 +1,50 @@
+/* Conteneur principal */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Ligne pour les compteurs */
+.counter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Boutons du compteur */
+.counter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.counter-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Champ de texte */
+.text-field {
+  flex: 1;
+}
+
+/* Ligne pour les prénoms */
+.names-row {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Switch */
+.switch-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
